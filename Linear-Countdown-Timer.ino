@@ -47,14 +47,14 @@ void loop() {
 
   //COUNTUP - If button is held then count up the timer + set the counterFlag to TRUE
   if ((buttonState == 1) && (timermode == false)) {
-    
+    delay(1000);
     while (buttonState == 1) {
       delay(10); // Need a delay for button debounce reasons - if code is error prone you may need to edit delay duration. 
       buttonState = digitalRead(buttonPin);
       leds[mins] = CRGB::Green;
       Serial.println(mins);
       FastLED.show();
-      delay(300);//delay in counting up. Smaller for faster. 
+      delay(500);//delay in counting up. Smaller for faster. 
       mins++;
       //TODO - The debounce and delay above needs work. Very easy to add additional minutes when you don't mean to. 
     }
@@ -176,6 +176,4 @@ void endAnimation() {
   timermode = false;
   animationFlag = false;
 }
-
-
 

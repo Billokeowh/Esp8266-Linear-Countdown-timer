@@ -1,7 +1,7 @@
 # Esp8266-Linear-Countdown-timer
 Very simple visual countdown timer for use with the ESP 8266 and some WS2811 Leds. Simply hold button to count up minutes and release to begin countdown.
 
-//TODO - PIC
+![image](https://user-images.githubusercontent.com/80263068/147860152-33ee3db4-aa51-4ad7-8e43-0d353497ba32.png)
 
 This linear countdown timer is designed to be a simple and easy to use tool to give a visual representation of time left. I use this tool daily in the classroom to allow children of all ages to understand the time they have to complete a task. It is operated by holding the button to count up the number of minutes required. The amount of time is then divided out evenly over the given number of Leds. This means that whether you are counting down from 1 hour or 1 minute, the entire strip of Leds will be used. If you wanted one Led to be one minute you could easily change the code. Although I am using this in a education setting, it would be just as effective anywhere where understanding the passage of time/parsing information from analogue or digal clocks is difficult - retirement home, Special education setting etc...
 
